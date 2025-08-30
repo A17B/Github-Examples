@@ -1,4 +1,3 @@
-name: Schedule Cron
 on:
   schedule:
     - cron: '*/1 * * * *'
