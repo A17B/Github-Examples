@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Every 1 Min
-        run: echo "The current Server Time is ${date}"
+        run: echo "The current Server Time is $(date)"
