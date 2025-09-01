@@ -10,6 +10,6 @@ jobs:
         uses: A17B/hello_github_actions@0.0.1
         with:
           name: 'Brown'
-      # Use the output from the `hello` step 
+      # Use the output from the `hello` step
       - name: Get the Output
         run: echo "The time was ${{ steps.hello.outputs.greeting }}"
